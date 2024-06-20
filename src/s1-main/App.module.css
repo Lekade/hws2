@@ -3,9 +3,21 @@
 }
 
 .hw {
-
+    padding-top: 24.5px;
+    padding-bottom: 34.5px;
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .hwTitle {
-
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 131px auto 9.5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: left;
 }
