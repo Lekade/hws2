@@ -15,6 +15,12 @@
     height: 37px;
 }
 
+.name span {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .closeButton {
     display: flex;
     align-items: center;
