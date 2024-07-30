@@ -25,7 +25,7 @@
     overflow-y: hidden;
     border: none;
     outline: transparent;
-    transition: 0.5s;
+    transition: outline 0.5s;
 }
 .textarea:focus-visible {
     box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.5),0 5px 20px 0 rgba(29, 33, 38, 0.03);
@@ -42,7 +42,7 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: background-color 0.5s;
 }
 
 .button:hover {
