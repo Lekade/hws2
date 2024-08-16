@@ -1,23 +1,69 @@
 .item {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
+    border-bottom: none;
 }
 
 .users {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-bottom: 18px;
 }
 
 .container {
+    width: 100%;
+    max-width: 606px;
+
 }
 
-.thead {
+.thead{
+    display: block;
+    width: 100%;
+}
+.thead tr{
+    width: 100%;
+    display: flex;
+    background: rgb(229, 229, 229);
+}
+.thead .nameCol,
+.thead .ageCol{
+    padding: 10.5px 17px 8.5px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.thead .ageCol{
+    padding-left: 0;
 }
 
 .nameCol {
+    padding: 15px 17px;
+    display: block;
+    width: 50%;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
 }
 
 .ageCol {
+    padding: 15px 17px 15px 0;
+    display: block;
+    width: 50%;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
 }
